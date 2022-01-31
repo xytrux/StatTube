@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "stattube"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord = "^1.7.3"
+discord-py-interactions = "^3.0.2"
+aiohttp = "^3.7.4"
+cachetools = "^4.2.4"
+jishaku = "^2.3.1"
+humanize = "^3.12.0"
+click = "^8.0.3"
+Flask = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
